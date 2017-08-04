@@ -30,7 +30,7 @@ public class HITGvyExamples extends AbstractTableViewCommand{
 			return;
 		
 		BizRequest request = new BizRequest(user);
-		
+		//prueba dos
 		log("request=$request");
 		
 	}
