@@ -354,7 +354,7 @@ public class InvoiceInterceptor extends AbstractEntityLifecycleInterceptor
 			*/
 				
 				
-				def client = new SOAPClient("http://hit-app02:52750/wsextrahit.asmx")
+				def client = new SOAPClient("http://hit-app02:52751/wsextrahit.asmx")
 				def response = client.send( """<?xml version="1.0" encoding="utf-8"?>
 										<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
 											  <soap:Body>
